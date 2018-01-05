@@ -179,8 +179,6 @@ struct aiTexture
      */
     C_STRUCT aiTexel* pcData;
 
-    uint8_t *rawImageData;
-
 #ifdef __cplusplus
 
     //! For compressed textures (mHeight == 0): compare the
